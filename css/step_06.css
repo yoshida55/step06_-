@@ -1,0 +1,178 @@
+/* ===============================================
+   共通スタイル
+   =============================================== */
+.wrapper {
+  /* width: 100%;
+  max-width: 140rem;
+  margin: 6rem  7rem 0 7rem; */
+}
+
+/* ===============================================
+   メインビジュアル　男性のお洒落な服装
+   =============================================== */
+.mainvisual {
+  width: 126rem;
+  height: 59rem;
+
+  margin: 6rem 7rem 0 7rem;
+
+  object-fit: cover; /* containからcoverに変更 */
+  display: block;
+}
+
+/* ===============================================
+   メインビジュアル下のヘッダ
+   =============================================== */
+.navi_row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem; /* ★暫定★ */
+  gap: 5rem;
+  margin: 3.2rem 7rem 6.2rem 7rem;
+}
+
+.logo_item {
+  width: 12.1rem;
+  height: 1.5rem;
+}
+
+.navi_items_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 19.2rem;
+  gap: 3rem;
+}
+
+.concept_nav {
+  width: 5.2rem;
+  height: 1.6rem;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.work_nav {
+  width: 3.2rem;
+  height: 1.6rem;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.contact_nav {
+  width: 4.8rem;
+  height: 1.6rem;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+/* ===============================================
+   ジュエリーとは
+   =============================================== */
+
+.jewelry_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rem;
+  /* margin: 0 auto; */
+  /* width: 81.3rem; 482px(画像)67(余白)264px(文章) */
+  /*実際横はずれるので暫定 */
+  width: auto;
+
+  margin: 0 7rem 6rem 7rem;
+
+  gap: 18rem;
+  /* gap: 6.7rem; */
+}
+
+.jewelry_img {
+  width: 48.2rem;
+  height: 48.2rem;
+  object-fit: cover;
+}
+
+.jewelry_top_Message_item {
+  display: block;
+  /* width: 26.4rem; */
+  height: 3.2rem;
+  font-size: 2.4rem;
+}
+
+.jewelry_Message_item_Concept {
+  /* width: 26.4rem; */
+  height: 1.7rem;
+  font-size: 1.6rem;
+  margin-bottom: 2.2rem;
+}
+
+.jewelry_Message_discription {
+  width: 24.8rem;
+  /* height: 12.6rem; */
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+/* ===============================================
+   ハンドメイド
+   =============================================== */
+.handmade_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rem;
+  /* margin: 0 auto; */
+  /* width: 81.3rem; 482px(画像)67(余白)264px(文章) */
+  /*実際横はずれるので暫定 */
+  width: auto;
+
+  margin: 0 7rem 6rem 7rem;
+
+  gap: 18rem;
+}
+
+.handmade_img {
+  width: 48.2rem;
+  height: 48.2rem;
+  object-fit: cover;
+}
+
+.handmade_top_Message_item {
+  display: block;
+  /* width: 26.4rem; */
+  height: 3.2rem;
+  font-size: 2.4rem;
+}
+
+.handmade_Message_item_Concept {
+  /* width: 26.4rem; */
+  height: 1.7rem;
+  font-size: 1.6rem;
+  margin-bottom: 2.2rem;
+}
+
+.handmade_Message_discription {
+  width: 24.8rem;
+  /* height: 12.6rem; */
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+/* ===============================================
+   フッター 
+   =============================================== */
+
+.contact_row {
+  display: flex;
+  gap: 69rem;
+  justify-content: center;
+}
+
+.hooter_image {
+  width: 12.1rem;
+  height: 1.5rem;
+}
+
+.hooter_message {
+  width: 15.2rem;
+  height: 16.5rem;
+}

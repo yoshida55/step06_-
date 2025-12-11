@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>step_06</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/step_06.css" />
   </head>
   <body>
@@ -30,9 +32,9 @@
           />
           <nav class="navi_item">
             <ul class="navi_items_list">
-              <li><a href="#">Concept</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a class="concept_nav" href="#">Concept</a></li>
+              <li><a class="work_nav" href="#">Work</a></li>
+              <li><a class="contact_nav" href="#">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -40,10 +42,9 @@
       <!-- ===============================================
          ジュエリーとは
          =============================================== -->
-      <section>
-        <div class="accessory_row">
-          <img src="img/concept.jpg" alt="女性の手と指輪" />
-
+      <section class="jewelry_erea">
+        <div class="jewelry_row">
+          <img class="jewelry_img" src="img/concept.jpg" alt="女性の手と指輪" />
           <div class="jewelry_card">
             <h2 class="jewelry_top_Message_item">
               私たちの考えるジュエリーとは
@@ -63,7 +64,6 @@
          =============================================== -->
       <section>
         <div class="handmade_row">
-          <img src="img/work.jpg" alt="ハンドメイドの雑貨" />
           <div class="handmade_card">
             <h2 class="handmade_top_Message_item">
               ハンドメイドにこだわる理由
@@ -76,6 +76,11 @@
               キストテキストテキストテキスト
             </p>
           </div>
+          <img
+            class="handmade_img"
+            src="img/work.jpg"
+            alt="ハンドメイドの雑貨"
+          />
         </div>
       </section>
 
@@ -83,8 +88,12 @@
         フッター 
         =============================================== -->
       <hooter class="contact_row">
-        <img src="img/logo.svg" alt="木製ジュエリータイトルロゴ" />
-        <p class="hooter_Message">© 2021 Wooden Jewelry</p>
+        <img
+          class="hooter_image"
+          src="img/logo.svg"
+          alt="木製ジュエリータイトルロゴ"
+        />
+        <p class="hooter_message">© 2021 Wooden Jewelry</p>
       </hooter>
     </div>
   </body>
