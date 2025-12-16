@@ -6,12 +6,11 @@
   width: 100%;
   max-width: 140rem;
   margin: 0 auto;
-
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ===============================================
-   メインビジュアル　男性のお洒落な服装
+   メインビジュアル　お洒落な服装
    =============================================== */
 
 .mainvisual_area {
@@ -23,10 +22,8 @@
   width: 126rem;
   max-width: 100%;
   height: 59rem;
-
-  margin: 6rem auto 0;
-
-  object-fit: cover; /* containからcoverに変更 */
+  margin: 6rem 0 0;
+  object-fit: cover;
   display: block;
 }
 
@@ -37,7 +34,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 30rem; /* ★暫定★ */
+  width: 30rem;
   gap: 5rem;
   margin: 3.2rem 7rem 6.2rem 7rem;
 }
@@ -89,8 +86,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 0 auto; */
-  /* width: 81.3rem; 482px(画像)67(余白)264px(文章) */
   width: 96.4rem;
   gap: 8.5rem;
   /* 画像とメッセージの多要素との距離　 */
@@ -113,14 +108,14 @@
 }
 
 .jewelry_top_Message_item {
-  width: 40.8rem; /* 幅を統一 */
+  width: 40.8rem;
   text-align: left;
   height: 3.2rem;
   font-size: 2.4rem;
 }
 
 .jewelry_Message_item_Concept {
-  width: 40.8rem; /* 幅を統一 */
+  width: 40.8rem;
   text-align: left;
 
   height: 1.7rem;
@@ -129,9 +124,8 @@
 }
 
 .jewelry_Message_discription {
-  width: 24.8rem; /* 幅を統一 */
+  width: 24.8rem;
   text-align: left;
-
   font-size: 1.6rem;
   line-height: 2.7rem;
 }
@@ -146,7 +140,6 @@
   margin-bottom: 12rem;
   width: 96.4rem;
   gap: 8.5rem;
-
   margin: 0 auto 6rem auto;
 }
 
@@ -181,17 +174,16 @@
 
 .handmade_Message_discription {
   width: 24.8rem;
-
   font-size: 1.6rem;
   line-height: 2.7rem;
 }
+
 /* ===============================================
    フッター 
    =============================================== */
 
 .contact_row {
   display: flex;
-
   width: 96.4rem;
   justify-content: space-between;
   margin: 0 auto;
@@ -206,39 +198,43 @@
   height: 16.5rem;
 }
 
+
+
 /* ===============================================
    ★レスポンシブ★　メディアクエリ
    =============================================== */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 699.98px) {
+
   /* ===============================================
-   ★レスポンシブ★ メインビジュアル　男性のお洒落な服装
+   ★レスポンシブ★ メインビジュアル　お洒落な服装
    ============================================== */
+  .mainvisual_area {
+    width: 100%;
+    padding: 0rem;
+  }
+
+
   .mainvisual {
     width: 37.5rem;
     height: 33.4rem;
-
     margin: 0;
   }
 
   /* ===============================================
    ★レスポンシブ★  メインビジュアル下のヘッダ
    =============================================== */
-  .navi_erea {
+  .navi_area {
     display: block;
     margin: 2rem 0 5rem 0;
-    /* border: 1rem solid rgb(231, 25, 25); */
   }
 
   .navi_row {
     display: flex;
-
     justify-content: center;
     align-items: center;
-    width: 33.9rem; /* ★375-(18*2)★ */
+    width: 33.9rem;
     gap: 3.7rem;
     margin: 0 auto;
-
-    /* border: 1px solid rgb(25, 231, 25); */
   }
 
   .concept_nav {
@@ -259,16 +255,14 @@
   /* ===============================================
    レスポンシブ　ジュエリーとは
    =============================================== */
-  .jewelry_erea {
+  .jewelry_area {
     margin-bottom: 5.8rem;
   }
 
   .jewelry_row {
     flex-direction: column;
     justify-content: flex-start;
-
-    width: 100%; /* (48.2*2+17(空白)) */
-
+    width: 100%;
     /* 画像とメッセージの多要素との距離　 */
     margin: 0;
     gap: 0.6rem;
@@ -282,13 +276,13 @@
   /* ここでflexをうける */
   .jewelry_card {
     flex: 1;
-
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 1.8rem; /* 画像との距離 */
+    padding-left: 1.8rem;
+    /* 画像との距離 */
   }
 
   .jewelry_top_Message_item {
@@ -314,25 +308,22 @@
   .handmade_row {
     flex-direction: column-reverse;
     justify-content: flex-start;
-
-    width: 100%; /* (48.2*2+17(空白)) */
-
+    width: 100%;
     /* 画像とメッセージの多要素との距離　 */
     margin: 0 auto 7.8rem auto;
-
     gap: 0.6rem;
   }
 
   /* ここでflexをうける */
   .handmade_card {
     flex: 1;
-
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 1.8rem; /* 画像との距離 */
+    padding-left: 1.8rem;
+    /* 画像との距離 */
   }
 
   .handmade_top_Message_item {
@@ -366,12 +357,15 @@
     justify-content: space-between;
     margin: 0 auto;
   }
+
   .footer_image {
     width: 11rem;
     height: 1.4rem;
   }
+
   .footer_message {
     font-size: 1.4rem;
     height: 1.6rem;
   }
+
 }
