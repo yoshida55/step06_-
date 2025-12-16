@@ -34,13 +34,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 30rem;
   gap: 5rem;
-  margin: 3.2rem 7rem 6.2rem 7rem;
-}
-
-.navi_item {
-  width: 100%;
+  margin: 3.2rem 7rem 6.2rem;
 }
 
 .logo_item {
@@ -52,7 +47,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 19.2rem;
   gap: 3rem;
 }
 
@@ -107,14 +101,14 @@
   object-fit: cover;
 }
 
-.jewelry_top_Message_item {
+.jewelry_top_message_item {
   width: 40.8rem;
   text-align: left;
   height: 3.2rem;
   font-size: 2.4rem;
 }
 
-.jewelry_Message_item_Concept {
+.jewelry_message_item_concept {
   width: 40.8rem;
   text-align: left;
 
@@ -123,7 +117,7 @@
   margin-bottom: 2.2rem;
 }
 
-.jewelry_Message_discription {
+.jewelry_message_description {
   width: 24.8rem;
   text-align: left;
   font-size: 1.6rem;
@@ -137,10 +131,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 12rem;
   width: 96.4rem;
   gap: 8.5rem;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 6rem;
 }
 
 .handmade_img {
@@ -157,22 +150,20 @@
   padding-left: 7rem;
 }
 
-.handmade_top_Message_item {
-  width: 15.4rem;
+.handmade_top_message_item {
   width: 32.4rem;
   height: 3.2rem;
   font-size: 2.4rem;
 }
 
-.handmade_Message_item_Concept {
-  width: 32.4rem;
+.handmade_message_item_concept {
   width: 15.4rem;
   height: 1.7rem;
   font-size: 1.6rem;
   margin-bottom: 2.2rem;
 }
 
-.handmade_Message_discription {
+.handmade_message_description {
   width: 24.8rem;
   font-size: 1.6rem;
   line-height: 2.7rem;
@@ -186,7 +177,7 @@
   display: flex;
   width: 96.4rem;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
 }
 
 .footer_image {
@@ -195,7 +186,38 @@
 }
 
 .footer_message {
-  height: 16.5rem;
+  font-size: 1.4rem;
+  height: 1.6rem;
+}
+
+/* --- レイアウト確認用（完成したら消す） --- */
+div,
+section,
+article,
+header,
+footer,
+nav,
+main {
+  outline: 1px solid red !important;
+}
+
+img,
+svg {
+  outline: 1px solid blue !important;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+li {
+  outline: 1px solid limegreen !important;
 }
 
 
@@ -285,19 +307,19 @@
     /* 画像との距離 */
   }
 
-  .jewelry_top_Message_item {
+  .jewelry_top_message_item {
     width: 100%;
     height: 2.7rem;
     font-size: 2rem;
     margin-bottom: 0.1rem;
   }
 
-  .jewelry_Message_item_Concept {
+  .jewelry_message_item_concept {
     width: 100%;
     height: 1.7rem;
   }
 
-  .jewelry_Message_discription {
+  .jewelry_message_description {
     width: 24.8rem;
     font-size: 1.6rem;
   }
@@ -326,21 +348,20 @@
     /* 画像との距離 */
   }
 
-  .handmade_top_Message_item {
+  .handmade_top_message_item {
     width: 100%;
     height: 2.7rem;
     font-size: 2rem;
   }
 
-  .handmade_Message_item_Concept {
+  .handmade_message_item_concept {
     width: 100%;
     height: 1.7rem;
   }
 
-  .handmade_Message_discription {
-    width: 100%;
-    font-size: 1.6rem;
+  .handmade_message_description {
     width: 24.8rem;
+    font-size: 1.6rem;
   }
 
   .handmade_img {
